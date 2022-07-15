@@ -8,6 +8,7 @@ In this repository you will find:
 * `unforeseen_excerpts.xlsx` comprises the fragments of I.2 and O.11 that were found to exceed the upper 95% confidence interval, as this was defined by random sampling excerpts from the remainder of each poem.
 
 If you find this work interesting, please cite us:
+```
 @article{Pavlopoulos2022,
   author = {Pavlopoulos, John and Konstantinidou, Maria},
   doi = {https://doi.org/10.1007/s42803-022-00046-7},
@@ -16,3 +17,4 @@ If you find this work interesting, please cite us:
   journal = {International Journal of Digital Humanities}
   year = {2022},
 }
+```
