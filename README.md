@@ -1,11 +1,14 @@
 # Computational authorship analysis with language modelling
 
-In [prior work](https://dl.acm.org/doi/10.1145/3526242.3526256), we modeled Homeric language and provided empirical findings regarding the authorship nature of the 48 Iliad and Odyssey books. Following this line of work, and considering the current philological views and trends, we break down the two poems further into smaller portions. By employing language modeling we identify outlying passages, indicating reduced linguistic affinity with the main body of the two works and, by extension, potentially different authorship. Our results show that some of the passages isolated as outliers by the language models were also identified as such by human researchers. We further test our methodology and models on texts of similar language and genre created by other authors, namely Hesiod’s “Theogony” and “Work and Days”.
+In [prior work](https://dl.acm.org/doi/10.1145/3526242.3526256), we modeled Homeric language and provided empirical findings regarding the authorship nature of the 48 Iliad and Odyssey books. Following this line of work, and considering the current philological views and trends, we break down the two poems further into smaller portions. By employing language modeling we identify outlying passages, indicating reduced linguistic affinity with the main body of the two works and, by extension, potentially different authorship. 
 
-In this repository you will find:
-* `analysing_iliad_and_odyssey.ipynb` comprising the code,
-* `scored_excerpts.xlsx` comprising the PPL per 600-character long excerpt of the Iliad and the Odyssey,
-* `unforeseen_excerpts.xlsx` comprises the fragments of I.2 and O.11 that were found to exceed the upper 95% confidence interval, as this was defined by random sampling excerpts from the remainder of each poem.
+Using a book resolution, in the Iliad, the greatest proximity (least PPL) was observed for Books 11 and 17. The least proximity (highest PPL) was observed for the 4th and 9th Book. In the Odyssey, the 9th and 12th books were the ones least linguistically associated while the 1st and the 16th were the ones most strongly associated with the remaining books.
+![book resolution](https://link.springer.com/article/10.1007/s42803-022-00046-7/figures/3)
+
+By using a passage resolution, forty-seven excerpts of 600 characters each were scored above the upper 95% among all other excerpts. Twenty-five were from the Iliad and 22 from the Odyssey: 
+![book resolution](https://link.springer.com/article/10.1007/s42803-022-00046-7/figures/5)
+
+Further investigation showed that some of the passages isolated as outliers by the language models were also identified as such by human researchers. Please read [our paper](https://t.co/OrU2VI9gzg) for more details.
 
 If you find this work interesting, please cite us:
 ```
@@ -18,3 +21,8 @@ If you find this work interesting, please cite us:
   year = {2022},
 }
 ```
+
+In this repository you will find:
+* __analysing_iliad_and_odyssey.ipynb__ comprising the code,
+* __scored_excerpts.xlsx__ comprising the PPL per 600-character long excerpt of the Iliad and the Odyssey,
+* __unforeseen_excerpts.xlsx__ comprises the fragments of I.2 and O.11 that were found to exceed the upper 95% confidence interval, as this was defined by random sampling excerpts from the remainder of each poem.
