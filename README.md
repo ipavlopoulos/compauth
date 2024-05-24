@@ -6,7 +6,7 @@ By using a book resolution, in the Iliad, the greatest proximity (least PPL) was
 
 By using a passage resolution, forty-seven excerpts of 600 characters each were scored above the upper 95% among all other excerpts. Twenty-five were from the Iliad and 22 from the Odyssey.
 
-Further investigation showed that some of the passages isolated as outliers by the language models were also identified as such by human researchers. Please read [our paper](https://t.co/OrU2VI9gzg) for more details.
+Further investigation showed that some of the passages isolated as outliers by the language models were also identified as such by human researchers. Please read our paper for more details: https://link.springer.com/article/10.1007/s42803-022-00046-7
 
 If you find this work interesting, please cite us:
 ```
